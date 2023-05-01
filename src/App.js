@@ -1,25 +1,26 @@
-import React from 'react';
-import './App.css';
-import logo from './logo.svg';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>My Portfolio</h1>
-      </header>
-      <div className="container">
-        <h2>My Work</h2>
-        <div className="media-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/maJKKSTarUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <img src="https://i.pximg.net/img-master/img/2014/10/01/21/37/09/41829678_p0_master1200.jpg" alt="Random Image" />
-          <img src="https://i.pximg.net/img-master/img/2014/10/01/21/37/09/41829678_p0_master1200.jpg" alt="Random Image" />
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/maJKKSTarUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <img src="https://i.pximg.net/img-master/img/2014/10/01/21/37/09/41829678_p0_master1200.jpg" alt="Random Image" />
-        </div>
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Testimonials from  './components/Testimonials';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import resumeData from './resumeData';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <Testimonials resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
