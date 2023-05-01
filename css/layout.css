@@ -251,7 +251,7 @@ ul#nav li.current a { color: #907AD6; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #907AD6;
+   border-bottom: 3px solid #2C2A4A;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -411,7 +411,7 @@ ul#nav li.current a { color: #907AD6; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #1C1B2D;
+   background: #2C2A4A;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -791,7 +791,7 @@ call-to-action .button {
    background: #1C1B2D;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #EBEEEE;
 }
 #contact .section-head { margin-bottom: 42px; }
 
