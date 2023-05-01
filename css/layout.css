@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #6a31b4; }
+header .social li a:hover { color: #9977FF; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #6a31b4; }
+header .scrolldown a:hover { color: #9977FF; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #6a31b4; }
+ul#nav li.current a { color: #9977FF; }
 
 
 /* ------------------------------------------------------------------ */
@@ -194,7 +194,7 @@ ul#nav li.current a { color: #6a31b4; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #6a31b4; }
+#about a:hover, #about a:focus { color: #9977FF; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -242,7 +242,7 @@ ul#nav li.current a { color: #6a31b4; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #6a31b4; }
+#resume a, #resume a:visited  { color: #9977FF; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #6a31b4; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #6a31b4;
+   border-bottom: 3px solid #9977FF;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -552,7 +552,7 @@ ul#nav li.current a { color: #6a31b4; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #6a31b4; }
+.popup-modal a:hover {	color: #9977FF; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -795,7 +795,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #6a31b4; }
+#contact a, #contact a:visited  { color: #9977FF; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -856,7 +856,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #6a31b4;
+	background-color: #9977FF;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -875,7 +875,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #6a31b4;
+	color: #9977FF;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -887,7 +887,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #6a31b4; }
+#message-success { color: #9977FF; }
 
 #message-warning i,
 #message-success i {
@@ -1002,5 +1002,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #6a31b4; }
+#go-top a:hover { background-color: #9977FF; }
 
