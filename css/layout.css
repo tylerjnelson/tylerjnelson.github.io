@@ -187,7 +187,7 @@ ul#nav li.current a { color: #907AD6; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2C2A4A;
+   background: #1C1B2D;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #907AD6; }
 }
 #about p {
    line-height: 30px;
-   color: #2C2A4A;
+   color: #1C1B2D;
 }
 #about .profile-pic {
    position: relative;
@@ -223,7 +223,7 @@ ul#nav li.current a { color: #907AD6; }
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2C2A4A;
+   color: #1C1B2D;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -243,7 +243,7 @@ ul#nav li.current a { color: #907AD6; }
 }
 
 #resume a, #resume a:visited  { color: #907AD6; }
-#resume a:hover, #resume a:focus { color: #2C2A4A; }
+#resume a:hover, #resume a:focus { color: #1C1B2D; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -304,7 +304,7 @@ ul#nav li.current a { color: #907AD6; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #2C2A4A;
+   color: #1C1B2D;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +318,7 @@ ul#nav li.current a { color: #907AD6; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #2C2A4A;
+  	background: #1C1B2D;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -411,7 +411,7 @@ ul#nav li.current a { color: #907AD6; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #2C2A4A;
+   background: #1C1B2D;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -788,7 +788,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #2C2A4A;
+   background: #1C1B2D;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -844,7 +844,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #2C2A4A;
+	background: #1C1B2D;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -927,7 +927,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #2C2A4A;
+   color: #1C1B2D;
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -989,7 +989,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #2C2A4A;
+	background-color: #1C1B2D;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
