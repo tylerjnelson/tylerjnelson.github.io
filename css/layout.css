@@ -424,11 +424,11 @@ ul#nav li.current a { color: #907AD6; }
    color: #fff;
 }
 #portfolio h2 {
-   font: 12px/18px 'opensans-semibold', sans-serif;
+   font: 14px/20px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 10px;
+   margin-bottom: 4px;
    color: #fff;
 }
 
