@@ -119,7 +119,7 @@ export default class Porfolio extends Component {
             <iframe
               title={`Video ${index + 1}`}
               width="100%"
-              height="215"
+              height="230"
               src={video.url}
               allow="autoplay; encrypted-media"
               allowFullScreen
