@@ -8,7 +8,7 @@ export default class Porfolio extends Component {
       videos: [
         {
           url: "https://www.youtube.com/embed/maJKKSTarUU",
-          category: "In-Person Event: Adventurer's Oasis",
+          category: "In-Person Event: Adventurers' Oasis",
           description: "Main MC and Console Team Coordinator",
         },
         {
@@ -62,15 +62,15 @@ export default class Porfolio extends Component {
 
       webpages: [
         {
-          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=12808",
-          banner: "images/website_banners/web-fashionistar.jpg",
-          category: "Fashionistar Event Announcement",
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13298",
+          banner: "images/website_banners/web-maegu.jpg",
+          category: "Maegu Screenshot Event",
           description: "Author",
         },
         {
-          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13008",
-          banner: "images/website_banners/web-fashionistar.jpg",
-          category: "Fashionistar Winners Announcement",
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=132503",
+          banner: "images/website_banners/web-maegu.jpg",
+          category: "Maegu Screenshot Winners Announcement",
           description: "Author",
         },
         {
@@ -81,9 +81,9 @@ export default class Porfolio extends Component {
         },
         {
           url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13463",
-          banner: "images/website_banners/web-banner.jpg",
-          category: "Dont rememberlol",
-          description: "Author",
+          banner: "images/website_banners/web-ao.jpg",
+          category: "Adventurers' Oasis Recap",
+          description: "Editor",
         },
 
         {
@@ -172,7 +172,7 @@ export default class Porfolio extends Component {
       </div>
       
       <h1> </h1>
-      <h1>Webpages I've Written</h1>
+      <h1>Web Content I've Authored & Edited</h1>
       
       <div
         style={{

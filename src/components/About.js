@@ -17,7 +17,11 @@ export default class About extends Component {
                <h2>About Me</h2>
                <p>
                {
-                 resumeData.aboutme
+                  <span>
+                     Term - Term - Term
+                     <br></br>
+                     About Section
+                  </span>
                }
                </p>
 
@@ -27,11 +31,9 @@ export default class About extends Component {
 
                   <h2>Contact Details</h2>
                   <p className="address">
-       					<span>{resumeData.name}</span>
+       					<span>Tyler Nelson</span>
                      <br></br>
-       					<span>{resumeData.address}</span>
-                     <br></br>
-                     <span>{resumeData.website}</span>
+                     <a href="https://www.linkedin.com/in/tylernel">linkedin.com/in/tylernel</a>
        				</p>
                   </div>
                </div>
