@@ -59,6 +59,46 @@ export default class Porfolio extends Component {
           description: "Producer and Voiceover",
         },
       ],
+
+      webpages: [
+        {
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=12808",
+          banner: "images/website_banners/web-fashionistar.jpg",
+          category: "Fashionistar Event Announcement",
+          description: "Author",
+        },
+        {
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13008",
+          banner: "images/website_banners/web-fashionistar.jpg",
+          category: "Fashionistar Winners Announcement",
+          description: "Author",
+        },
+        {
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13028",
+          banner: "images/website_banners/web-3rd-year.jpg",
+          category: "Cross-Play 3rd Anniversary Stream Recap",
+          description: "Author",
+        },
+        {
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13463",
+          banner: "images/website_banners/web-banner.jpg",
+          category: "Dont rememberlol",
+          description: "Author",
+        },
+
+        {
+          url: "https://news.xbox.com/en-us/2022/04/07/explore-black-deserts-new-region-of-odyllita-today/",
+          banner: "images/website_banners/xwire-odyllita.jpg",
+          category: "Xbox Wire: New Region O'dyllita",
+          description: "Author",
+        },
+        {
+          url: "https://news.xbox.com/en-us/2022/05/31/black-desert-new-drakania-class-revealed/",
+          banner: "images/website_banners/xwire-drakania.jpg",
+          category: "Xbox Wire: New Class Drakania",
+          description: "Editor",
+        },
+      ],
     };
   }
 
@@ -90,14 +130,17 @@ export default class Porfolio extends Component {
 
 
   render() {
-    let resumeData = this.props.resumeData;
     return (
 
       
 
       <section id="portfolio">
+
+      {/*<p style="width:40px;height:40px;background-color:#fff;">Portfolio Test</p>*/}
+      <h1>Portfolio</h1>
+      <h1>I</h1>
         
-      <h1>Check out In-person Events, Livestreams, and Videos I've been a part of</h1>
+      <h1>Content I'm Involved In</h1>
       
       <div
         style={{
@@ -119,7 +162,7 @@ export default class Porfolio extends Component {
             <iframe
               title={`Video ${index + 1}`}
               width="100%"
-              height="230"
+              height="215"
               src={video.url}
               allow="autoplay; encrypted-media"
               allowFullScreen
@@ -129,9 +172,43 @@ export default class Porfolio extends Component {
           </div>
         ))}
       </div>
+      
+      <h1>I</h1>
+      
+      <h1>Webpages I've Written</h1>
+      
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
+        {this.state.webpages.map((webpage, index) => (
+          <div
+            key={`webpage-${index}`}
+            style={{
+              margin: "10px",
+              textAlign: "center",
+              flexBasis: `${100 / this.state.columns}%`,
+              maxWidth: `${100 / this.state.columns}%`,
+            }}
+          >
+            <a href={webpage.url} class="page-link" target="_blank" rel="noreferrer">
+              <img src={webpage.banner} alt="Page 1"></img>
+            </a>
+            <h2>{webpage.category}</h2>
+            <p style={{ margin: "10px 0 0 0" }}>{webpage.description}</p>
+          </div>
+        ))}
+      </div>
+
+      <h1>I</h1>
+      
+      <h1>Some things I do in my free time</h1>
 
 
-
+      {/*
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
@@ -159,6 +236,8 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
+      */}
+
   </section>
         );
   }
