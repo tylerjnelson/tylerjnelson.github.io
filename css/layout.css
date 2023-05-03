@@ -585,6 +585,24 @@ ul#nav li.current a { color: #907AD6; }
    opacity: 0;
 }
 
+.portfolio-image-container {
+   width: 25%;
+   height: 0;
+   padding-bottom: 56.25%;
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+ }
+ 
+ .portfolio-image-container img {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+
+
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
