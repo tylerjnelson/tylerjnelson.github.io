@@ -416,7 +416,7 @@ ul#nav li.current a { color: #907AD6; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/30px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -424,6 +424,14 @@ ul#nav li.current a { color: #907AD6; }
    color: #fff;
 }
 #portfolio h2 {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 36px;
+   color: #fff;
+}
+#portfolio h3 {
    font: 14px/20px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
