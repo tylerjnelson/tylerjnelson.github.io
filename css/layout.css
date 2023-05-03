@@ -203,7 +203,7 @@ ul#nav li.current a { color: #907AD6; }
 }
 #about p {
    line-height: 30px;
-   color: #fff;
+   color: #a4a9ae;
 }
 #about .profile-pic {
    position: relative;
@@ -503,7 +503,7 @@ ul#nav li.current a { color: #907AD6; }
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
-   color: #d4b8f6;
+   color: #a4a9ae;
    margin-bottom: 0;
 }
 
