@@ -136,9 +136,7 @@ export default class Porfolio extends Component {
 
       <section id="portfolio">
 
-      {/*<p style="width:40px;height:40px;background-color:#fff;">Portfolio Test</p>*/}
       <h1>Portfolio</h1>
-      <h1>I</h1>
         
       <h1>Content I'm Involved In</h1>
       
@@ -173,8 +171,7 @@ export default class Porfolio extends Component {
         ))}
       </div>
       
-      <h1>I</h1>
-      
+      <h1> </h1>
       <h1>Webpages I've Written</h1>
       
       <div
@@ -202,9 +199,8 @@ export default class Porfolio extends Component {
           </div>
         ))}
       </div>
-
-      <h1>I</h1>
       
+      <h1> </h1>
       <h1>Some things I do in my free time</h1>
 
 
@@ -238,8 +234,8 @@ export default class Porfolio extends Component {
       </div>
       */}
 
-  </section>
-        );
+      </section>
+    );
   }
 }
 
