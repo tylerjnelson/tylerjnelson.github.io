@@ -589,7 +589,7 @@ html.modal-open,
 body.modal-open {
   overflow-y: hidden;
   display: block;
-  max-width: 80%;
+  max-width: 50%;
   margin: 0 auto;
   text-align: center;
 }
