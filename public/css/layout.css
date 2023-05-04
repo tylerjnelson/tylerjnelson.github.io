@@ -589,9 +589,9 @@ html.modal-open,
 body.modal-open {
   overflow-y: hidden;
   display: block;
-  max-width: 80%;
-  margin: 0 auto;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* ------------------------------------------------------------------ */

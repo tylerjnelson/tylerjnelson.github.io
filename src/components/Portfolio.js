@@ -227,11 +227,69 @@ export default class Porfolio extends Component {
           </div>
 
           {/* popup modal */}
-          <div id="test-modal" className="white-popup-block mfp-hide">
+          <div id="test-modal" className="white-popup-block mfp-hide" >
             <img src="images/portfolio/console.jpg" alt="Modal Image" />
             <p>Popup Modal</p>
             <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
           </div>
+
+
+
+
+
+          {/* test */}
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf"> 
+            <div className="columns portfolio-item">
+              <div className="item-wrap">
+                <a href="#test-modal1">
+                  <img src="images/portfolio/coffee.jpg" className="item-img" alt=""/>
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>coffee</h5>
+                      <p>coffee</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div> 
+
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap">
+                <a href="#test-modal2">
+                  <img src="images/portfolio/console.jpg" className="item-img" alt=""/>
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>console</h5>
+                      <p>console</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div> 
+
+          </div>
+
+          
+          <div id="test-modal1" className="white-popup-block mfp-hide" >
+            <img src="images/portfolio/console.jpg" alt="Modal Image" />
+            <p>Popup Modal</p>
+            <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
+          </div>
+
+          
+          <div id="test-modal2" className="white-popup-block mfp-hide" >
+            <img src="images/portfolio/coffee.jpg" alt="Modal Image" />
+            <p>Popup Modal</p>
+            <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
+          </div>
+
+
+
+
+
+
+
         </div>
       </div>
 
