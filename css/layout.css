@@ -585,6 +585,11 @@ ul#nav li.current a { color: #907AD6; }
    opacity: 0;
 }
 
+html.modal-open,
+body.modal-open {
+  overflow-y: hidden;
+}
+
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
