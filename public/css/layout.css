@@ -585,6 +585,15 @@ ul#nav li.current a { color: #907AD6; }
    opacity: 0;
 }
 
+html.modal-open,
+body.modal-open {
+  overflow-y: hidden;
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */

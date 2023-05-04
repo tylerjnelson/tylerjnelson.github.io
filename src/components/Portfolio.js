@@ -127,9 +127,8 @@ export default class Porfolio extends Component {
     this.setState({ columns });
   };
 
-
-
   render() {
+    let resumeData = this.props.resumeData;
     return (
 
       
@@ -138,7 +137,7 @@ export default class Porfolio extends Component {
 
       <h1>Portfolio</h1>
         
-      <h1>Content I'm Involved In</h1>
+      <h1>Things I'm Involved In</h1>
       
       <div
         style={{
@@ -203,20 +202,17 @@ export default class Porfolio extends Component {
       <h1> </h1>
       <h1>Some things I do in my free time</h1>
 
-
-      {/*
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
 
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
+            {resumeData.portfolio && resumeData.portfolio.map((item) => {
+              return (
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                    <a href="#test-modal">
+                      <img src={`${item.imgurl}`} className="item-img" alt=""/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -226,13 +222,20 @@ export default class Porfolio extends Component {
                     </a>
                   </div>
                 </div>
-              )
-            })
-          }
+              );
+            })}
+          </div>
+
+          {/* popup modal */}
+          <div id="test-modal" className="white-popup-block mfp-hide">
+            <img src="images/portfolio/console.jpg" alt="Modal Image" />
+            <p>Popup Modal</p>
+            <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
           </div>
         </div>
       </div>
-      */}
+
+
 
       </section>
     );

@@ -18,9 +18,9 @@ export default class About extends Component {
                <p>
                {
                   <span>
-                     Term - Term - Term
+                     Programmer 💻 Writer 🖋️ Gamer 🕹️
                      <br></br>
-                     About Section
+                     Purdue University Computer Science graduate with over 2 years experience in the gaming industry. Substantial work with live service games like Genshin Impact and Black Desert. Main focus live operations, community management, and content creation.
                   </span>
                }
                </p>
@@ -33,7 +33,7 @@ export default class About extends Component {
                   <p className="address">
        					<span>Tyler Nelson</span>
                      <br></br>
-                     <a href="https://www.linkedin.com/in/tylernel">linkedin.com/in/tylernel</a>
+                     <a href="https://www.linkedin.com/in/tylernel" target="_blank" rel="noreferrer">linkedin.com/in/tylernel</a>
        				</p>
                   </div>
                </div>
