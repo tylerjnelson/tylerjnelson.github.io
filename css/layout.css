@@ -563,13 +563,6 @@ ul#nav li.current a { color: #907AD6; }
 .popup-modal a:hover {	color: #907AD6; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
-#test-modal {
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
-
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
