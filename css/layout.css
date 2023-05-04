@@ -444,8 +444,6 @@ ul#nav li.current a { color: #907AD6; }
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-
-   text-align: center;
 }
 .portfolio-item .item-wrap a {
    display: block;
