@@ -257,7 +257,7 @@ ul#nav li.current a { color: #907AD6; }
 #resume h2 {
    font: 18px/22px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
-   position: center;
+   text-align: center;
 }
 #resume h3 {
    font: 25px/30px 'opensans-semibold', sans-serif;
