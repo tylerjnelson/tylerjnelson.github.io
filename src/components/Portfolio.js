@@ -105,7 +105,7 @@ export default class Porfolio extends Component {
           url: "images/portfolio/projects/dadportrait.png",
           banner: "images/portfolio/projects/stable.png",
           category: "Tech Trends",
-          description: "The jury is still out on whether the pop culture AI revolution is positive overall. One thing is for certain: it is tranforming our lives. I try to stay up to date on emerging technology. This picture is 100% generated from text only. I trained an existing diffusion model to recognize my own likeness and reproduce it. I also made one of my dad (with his permission of course). Click on my face to see it.",
+          description: "The jury is still out on whether the pop culture AI revolution is positive overall. One thing is for certain: it is transforming our lives. I try to stay up to date on emerging technology. This picture is 100% generated from text only. I trained an existing diffusion model to recognize my own likeness and reproduce it. I also made one of my dad (with his permission of course). Click on my face to see it.",
         },
         {
           url: "https://drive.google.com/drive/folders/1zqxdbb2ViZjO59aVKim-p0tGYHOb2Va7?usp=sharing",
