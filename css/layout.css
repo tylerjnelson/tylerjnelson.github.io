@@ -254,8 +254,13 @@ ul#nav li.current a { color: #907AD6; }
    border-bottom: 3px solid #2C2A4A;
    padding-bottom: 6px;
 }
+#resume h2 {
+   font: 18px/22px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+}
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -267,7 +272,7 @@ ul#nav li.current a { color: #907AD6; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'opensans-bold', sans-serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
