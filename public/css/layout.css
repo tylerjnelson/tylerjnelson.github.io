@@ -197,7 +197,8 @@ ul#nav li.current a { color: #907AD6; }
 #about a:hover, #about a:focus { color: #907AD6; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -246,8 +247,7 @@ ul#nav li.current a { color: #907AD6; }
 #resume a:hover, #resume a:focus { color: #1C1B2D; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    letter-spacing: 1px;
 }
 #resume h1 span {
@@ -255,7 +255,7 @@ ul#nav li.current a { color: #907AD6; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-semibold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -267,7 +267,7 @@ ul#nav li.current a { color: #907AD6; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'opensans-bold', sans-serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -431,6 +431,15 @@ ul#nav li.current a { color: #907AD6; }
    margin-bottom: 4px;
    color: #fff;
 }
+#portfolio h4 {
+   font: 22px/30px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 36px;
+   color: #fff;
+}
+
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -523,7 +532,7 @@ ul#nav li.current a { color: #907AD6; }
 .popup-modal {
 	max-width: 550px;
 	background: #fff;
-	position: relative;
+	position: center;
 	margin: 0 auto;
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
@@ -589,8 +598,7 @@ html.modal-open,
 body.modal-open {
   overflow-y: hidden;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 200px;
   width: 50%;
 }
 

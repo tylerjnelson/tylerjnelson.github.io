@@ -5,7 +5,37 @@ export default  class Resume extends Component {
     return (
       <section id="resume">
 
-         <div className="row education">
+        <div className="row work">
+          <div className="three columns header-col">
+              <h1><span>Work</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {
+              resumeData.work && resumeData.work.map((item) => {
+                return(
+                  <div className="row item">
+                      <div className="twelve columns">
+                        <h3>{item.CompanyName}</h3>
+                        <p className="info">
+                        {item.specialization}
+                        <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                        <p>
+                        {item.Achievements}
+                        </p>
+                      </div>
+
+                  </div>
+
+                )
+              })
+            }
+            </div> 
+        </div>
+
+
+
+        <div className="row education">
 
             <div className="three columns header-col">
                <h1><span>Education</span></h1>
@@ -30,47 +60,26 @@ export default  class Resume extends Component {
                 })
               }
             </div>
-         </div>
-        <div className="row work">
-            <div className="three columns header-col">
-               <h1><span>Work</span></h1>
-            </div>
+        </div>
 
-            <div className="nine columns main-col">
-              {
-                resumeData.work && resumeData.work.map((item) => {
-                  return(
-                    <div className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
+        
+        <div className="row skill">
+        
 
-                    </div>
+        
 
-                  )
-                })
-              }
-            </div> 
-         </div>
+          <div className="three columns header-col">
+            <h1><span>Resume</span></h1>
+          </div>
 
+          <div className="nine columns main-col">
 
-         <div className="row skill">
+          <h3>
+            <a href="resources/resume-tyler-nelson.pdf" target="_blank" rel="noreferrer">View my full resume here</a>
+          </h3>
 
-            <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
-            </div>
-
-            <div className="nine columns main-col">
-
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+          {/*
+            <p>{resumeData.skillsDescription}</p>
 
    				<div className="bars">
 
@@ -89,10 +98,16 @@ export default  class Resume extends Component {
    					</ul>
 
    				</div>
-
-   			</div>
+          */}
+          
+   		  </div>
+        
 
          </div>
+
+
+         
+        
 
       </section>
     );

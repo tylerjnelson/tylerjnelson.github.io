@@ -4,6 +4,7 @@ export default class ContactUs extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="contact">
+{/*
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
@@ -20,6 +21,7 @@ export default class ContactUs extends Component {
               </div>
             </aside>
           </div>
+    */}
         </section>
         );
   }

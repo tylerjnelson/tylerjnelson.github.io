@@ -25,18 +25,25 @@ export default class About extends Component {
                }
                </p>
 
+               <h2>Contact Details</h2>
+               <p className="address">
+                  <span>If you'd like to get in touch, please reach out to me on LinkedIn:</span>
+                  <br></br>
+                  <a href="https://www.linkedin.com/in/tylernel" target="_blank" rel="noreferrer">linkedin.com/in/tylernel</a>
+               </p>
+
+
+
+               
+               {/*
                <div className="row">
 
                   <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       					<span>Tyler Nelson</span>
-                     <br></br>
-                     <a href="https://www.linkedin.com/in/tylernel" target="_blank" rel="noreferrer">linkedin.com/in/tylernel</a>
-       				</p>
+                  
                   </div>
-               </div>
+               </div> */}
+
             </div>
          </div>
       </section>

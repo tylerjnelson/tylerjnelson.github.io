@@ -63,42 +63,70 @@ export default class Porfolio extends Component {
       webpages: [
         {
           url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13298",
-          banner: "images/website_banners/web-maegu.jpg",
+          banner: "images/portfolio/website_banners/web-maegu.jpg",
           category: "Maegu Screenshot Event",
           description: "Author",
         },
         {
-          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=132503",
-          banner: "images/website_banners/web-maegu.jpg",
+          url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13503",
+          banner: "images/portfolio/website_banners/web-maegu.jpg",
           category: "Maegu Screenshot Winners Announcement",
           description: "Author",
         },
         {
           url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13028",
-          banner: "images/website_banners/web-3rd-year.jpg",
+          banner: "images/portfolio/website_banners/web-3rd-year.jpg",
           category: "Cross-Play 3rd Anniversary Stream Recap",
           description: "Author",
         },
         {
           url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13463",
-          banner: "images/website_banners/web-ao.jpg",
+          banner: "images/portfolio/website_banners/web-ao.jpg",
           category: "Adventurers' Oasis Recap",
           description: "Editor",
         },
 
         {
           url: "https://news.xbox.com/en-us/2022/04/07/explore-black-deserts-new-region-of-odyllita-today/",
-          banner: "images/website_banners/xwire-odyllita.jpg",
+          banner: "images/portfolio/website_banners/xwire-odyllita.jpg",
           category: "Xbox Wire: New Region O'dyllita",
           description: "Author",
         },
         {
           url: "https://news.xbox.com/en-us/2022/05/31/black-desert-new-drakania-class-revealed/",
-          banner: "images/website_banners/xwire-drakania.jpg",
+          banner: "images/portfolio/website_banners/xwire-drakania.jpg",
           category: "Xbox Wire: New Class Drakania",
           description: "Editor",
         },
       ],
+
+      projects: [
+        {
+          url: "images/portfolio/projects/dadportrait.png",
+          banner: "images/portfolio/projects/stable.png",
+          category: "Tech Trends",
+          description: "The jury is still out on whether the pop culture AI revolution is positive overall. One thing is for certain: it is tranforming our lives. I try to stay up to date on emerging technology. This picture is 100% generated from text only. I trained an existing diffusion model to recognize my own likeness and reproduce it. I also made one of my dad (with his permission of course). Click on my face to see it.",
+        },
+        {
+          url: "https://drive.google.com/drive/folders/1zqxdbb2ViZjO59aVKim-p0tGYHOb2Va7?usp=sharing",
+          banner: "images/portfolio/projects/photography.png",
+          category: "Photography",
+          description: "Portraits, nature photography, and street photography. I chronicle a lot of my travel through photography. I shoot on a mix of DSLRs and mirrorless cameras. Portrait work was done for a friend over several years. Click for some samples of my work.",
+        },
+        {
+          url: "",
+          banner: "images/portfolio/projects/gunpla.jpg",
+          category: "Model Building",
+          description: "I am by no means the most talented builder, but I do enjoy model building - especially Gunpla. Currently working on HG 1/144 RX-78-02 Gundam the Origin Version. HG 1/144 Gundam Aerial is up next :)",
+        },
+        {
+          url: "",
+          banner: "images/portfolio/projects/discord2.png",
+          category: "Discord",
+          description: "Alongside rebuilding and managing the Black Desert Console, I've built and maintained servers for medium-sized content creators and small communities. I also developed node.js-based bots during hackathons and in personal time.",
+        },
+      ],
+
     };
   }
 
@@ -135,9 +163,9 @@ export default class Porfolio extends Component {
 
       <section id="portfolio">
 
-      <h1>Portfolio</h1>
+      <h4>Portfolio</h4>
         
-      <h1>Things I'm Involved In</h1>
+      <h1>Some Work I've Done</h1>
       
       <div
         style={{
@@ -171,7 +199,7 @@ export default class Porfolio extends Component {
       </div>
       
       <h1> </h1>
-      <h1>Web Content I've Authored & Edited</h1>
+      <h1>Web Content I've Written & Edited</h1>
       
       <div
         style={{
@@ -191,7 +219,7 @@ export default class Porfolio extends Component {
             }}
           >
             <a href={webpage.url} class="page-link" target="_blank" rel="noreferrer">
-              <img src={webpage.banner} alt="Page 1"></img>
+              <img src={webpage.banner} alt=""></img>
             </a>
             <h2>{webpage.category}</h2>
             <p style={{ margin: "10px 0 0 0" }}>{webpage.description}</p>
@@ -202,98 +230,39 @@ export default class Porfolio extends Component {
       <h1> </h1>
       <h1>Some things I do in my free time</h1>
 
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
+        {this.state.projects.map((project, index) => (
+          <div
+            key={`project-${index}`}
+            style={{
+              margin: "10px",
+              textAlign: "center",
+              flexBasis: `${100 / this.state.columns}%`,
+              maxWidth: `${80 / this.state.columns}%`,
+            }}
+          >
 
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {resumeData.portfolio && resumeData.portfolio.map((item) => {
-              return (
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#test-modal">
-                      <img src={`${item.imgurl}`} className="item-img" alt=""/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              );
-            })}
+          {project.url !== "" ? (
+            <a href={project.url} class="page-link" target="_blank" rel="noreferrer">
+              <img src={project.banner} alt=""></img>
+            </a>
+          ) : (
+            <img src={project.banner} alt=""></img>
+          )}      
+
+
+            
+            <h2>{project.category}</h2>
+            <p style={{ margin: "10px 0 0 0" }}>{project.description}</p>
           </div>
-
-          {/* popup modal */}
-          <div id="test-modal" className="white-popup-block mfp-hide" >
-            <img src="images/portfolio/console.jpg" alt="Modal Image" />
-            <p>Popup Modal</p>
-            <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
-          </div>
-
-
-
-
-
-          {/* test */}
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf"> 
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#test-modal1">
-                  <img src="images/portfolio/coffee.jpg" className="item-img" alt=""/>
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>coffee</h5>
-                      <p>coffee</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div> 
-
-
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#test-modal2">
-                  <img src="images/portfolio/console.jpg" className="item-img" alt=""/>
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>console</h5>
-                      <p>console</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div> 
-
-          </div>
-
-          
-          <div id="test-modal1" className="white-popup-block mfp-hide" >
-            <img src="images/portfolio/console.jpg" alt="Modal Image" />
-            <p>Popup Modal</p>
-            <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
-          </div>
-
-          
-          <div id="test-modal2" className="white-popup-block mfp-hide" >
-            <img src="images/portfolio/coffee.jpg" alt="Modal Image" />
-            <p>Popup Modal</p>
-            <div dangerouslySetInnerHTML={{__html: this.state.modalContent}}></div>
-          </div>
-
-
-
-
-
-
-
-        </div>
+        ))}
       </div>
-
-
 
       </section>
     );
