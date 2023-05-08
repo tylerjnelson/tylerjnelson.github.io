@@ -197,7 +197,8 @@ ul#nav li.current a { color: #907AD6; }
 #about a:hover, #about a:focus { color: #907AD6; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -246,7 +247,7 @@ ul#nav li.current a { color: #907AD6; }
 #resume a:hover, #resume a:focus { color: #1C1B2D; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -255,11 +256,11 @@ ul#nav li.current a { color: #907AD6; }
    padding-bottom: 6px;
 }
 #resume h2 {
-   font: 18px/22px 'opensans-bold', sans-serif;
+   font: 18px/22px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
 }
 
