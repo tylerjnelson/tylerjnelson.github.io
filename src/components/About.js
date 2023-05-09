@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class About extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    /*let resumeData = this.props.resumeData;*/
     return (
       <section id="about">
          <div className="row">
@@ -31,18 +31,6 @@ export default class About extends Component {
                   <br></br>
                   <a href="https://www.linkedin.com/in/tylernel" target="_blank" rel="noreferrer">linkedin.com/in/tylernel</a>
                </p>
-
-
-
-               
-               {/*
-               <div className="row">
-
-                  <div className="columns contact-details">
-
-                  
-                  </div>
-               </div> */}
 
             </div>
          </div>
