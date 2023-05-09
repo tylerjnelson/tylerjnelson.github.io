@@ -659,44 +659,7 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* Style for the gallery container */
-.slick-slider {
-   position: relative;
-   display: block;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
- }
- 
- /* Style for the gallery images */
- .slick-slide img {
-   display: block;
-   width: 100%;
-   height: auto;
- }
- 
- /* Style for the navigation arrows */
- .slick-prev,
- .slick-next {
-   position: absolute;
-   top: 50%;
-   transform: translateY(-50%);
-   z-index: 1;
-   font-size: 2rem;
-   line-height: 1;
-   cursor: pointer;
-   border: none;
-   background-color: transparent;
-   color: white;
- }
- 
- .slick-prev {
-   left: 10px;
- }
- 
- .slick-next {
-   right: 10px;
- }
+
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
