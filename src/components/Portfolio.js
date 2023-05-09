@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 export default class Porfolio extends Component {
-  
+
   constructor(props) {
     super(props);
     this.state = {
       columns: 4,
-      
-
     };
   }
 
