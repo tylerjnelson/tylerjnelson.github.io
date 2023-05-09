@@ -168,7 +168,7 @@ let resumeData = {
     {
       url: "",
       banner: "images/portfolio/projects/discord2.png",
-      category: "Discord",
+      category: "Community",
       description: "Alongside rebuilding and managing the Black Desert Console Discord, I've built and maintained servers for medium-sized content creators and small communities. I also developed node.js-based bots during Microsoft hackathons and in personal time. These bots ranged from simple addons to moderation tools.",
     },
   ],
