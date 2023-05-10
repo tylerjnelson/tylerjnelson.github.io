@@ -15,18 +15,23 @@ export default  class Resume extends Component {
               resumeData.work && resumeData.work.map((item) => {
                 return(
                   <div className="row item">
-                      <div className="twelve columns">
-                        <h3>{item.CompanyName}</h3>
-                        <p className="info">
+                    <div className="twelve columns">
+                      <h3>{item.CompanyName}</h3>
+                      <p className="info">
                         {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                        <p>
-                        {item.Achievements}
-                        </p>
-                      </div>
+                        <span>&bull;</span> 
+                      
+                        {item.StartDate !== "" ? (
+                          <em className="date">{item.StartDate} - {item.EndDate}</em>
+                        ) : (
+                          <em className="date">{item.EndDate}</em>
+                        )}
+                
+                      </p>
 
+                      <p>{item.Achievements}</p>
+                    </div>
                   </div>
-
                 )
               })
             }
@@ -46,15 +51,22 @@ export default  class Resume extends Component {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
                     <div className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
-                          <p className="info">
+                      <div className="twelve columns">
+                        <h3>{item.UniversityName}</h3>
+                        <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
+                          <span>&bull;</span>
+
+                          {item.StartDate !== "" ? (
+                            <em className="date">{item.StartDate} - {item.EndDate}</em>
+                          ) : (
+                            <em className="date">{item.EndDate}</em>
+                          )}
+                  
+                        </p>
+
+                        <p>{item.Achievements}</p>
+                      </div>
                     </div>
                   )
                 })

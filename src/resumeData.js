@@ -15,15 +15,15 @@ let resumeData = {
     {
       "UniversityName":"Purdue University",
       "specialization":"Computer Science: AI & Machine Learning Focus",
-      "MonthOfPassing":"May",
-      "YearOfPassing":"2020",
+      "StartDate":"September 2016",
+      "EndDate":"May 2020",
       "Achievements":"Honored as Outstanding Freshman in CS"
     },
     {
       "UniversityName":"Waseda University",
       "specialization":"Study Abroad: Japanese Language",
-      "MonthOfPassing":"August",
-      "YearOfPassing":"2019",
+      "StartDate":"",
+      "EndDate":"Spring 2019",
       "Achievements":"3rd Year Immersion Japanese"
     }
   ],
@@ -31,22 +31,22 @@ let resumeData = {
     {
       "CompanyName":"Pearl Abyss America",
       "specialization":"Community Manager",
-      "MonthOfLeaving":"Present",
-      "YearOfLeaving":"",
+      "StartDate":"December 2021",
+      "EndDate":"Present",
       "Achievements":"Outside of the portfolio work showcased above, responsibilities include (but not limited to): Managing 11 social media & blog platforms, publishing to PS News, Xbox Club & Xbox Events App, coordinating in-game & in-person events for Black Desert (as an IP), drafting official website notices, creating console UI/gameplay reports & submitting to relevant teams (QA, UI, Game Design, etc.), creating image & video assets, livestreaming"
     },
     {
       "CompanyName":"MiHoYo (now HoYoverse)",
       "specialization":"Global Community Management for Genshin Impact",
-      "MonthOfLeaving":"December",
-      "YearOfLeaving":"2020",
+      "StartDate":"April 2021",
+      "EndDate":"December 2021",
       "Achievements":"Produced reports on UI/gameplay suggestions, managed Discord, beta tested new builds of Genshin Impact, addressed players' questions/concerns through CS tickets."
     },
     {
       "CompanyName":"Microsoft",
       "specialization":"Project / Research Intern",
-      "MonthOfLeaving":"Summers",
-      "YearOfLeaving":"2016, 2017, 2018",
+      "StartDate":"",
+      "EndDate":"Summers 2016, 2017, 2018",
       "Achievements":"Data scientist within the Business Applications Group. Helped to improve support chatbot experience for Microsoft & clients. Worked to port Microsoft Pix (AI camera application) to Universal Windows Platform (UWP). Created a prototype Google Chrome extension for Docs.com (Office file sharing and discovery. Succeeded by SlideShare). Participated in company hackathon."
     }
   ],
