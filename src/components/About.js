@@ -18,8 +18,12 @@ export default class About extends Component {
                <p>
                {
                   <span>
-                     Programmer 💻 Writer 🖋️ Gamer 🕹️
+                     💻 Programmer
                      <br></br>
+                     ✍️ Writer
+                     <br></br> 
+                     🕹️ Gamer
+                     <br></br><br></br>
                      Purdue University Computer Science graduate with over 2 years experience in the gaming industry. Substantial work with live service games like Genshin Impact and Black Desert. Mainly focusing on live operations, community management, and content creation.
                   </span>
                }
