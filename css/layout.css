@@ -34,25 +34,26 @@ header {
    min-height: 500px;
    width: 100%;
    overflow: hidden;
-   }
-   
-   header:before {
+}
+
+header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
    height: 100%;
-   }
-   
-   header .banner {
+}
+
+header .banner {
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    width: 85%;
    text-align: center;
-   }
-   
-   header .banner-image {
+   z-index: 1;
+}
+
+header .banner-image {
    position: absolute;
    top: 0;
    left: 0;
@@ -61,14 +62,14 @@ header {
    background-image: url(../images/header-background.jpg);
    background-size: cover;
    background-position: center;
-   }
-   
-   @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
    header .banner-image {
-   background-attachment: fixed;
-   background-position: 50% 0;
+      background-attachment: fixed;
+      background-position: 50% 0;
    }
-   }
+}
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
