@@ -30,14 +30,18 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 1200px;
+   height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background2.jpg) no-repeat top center fixed;
+   background: #161415 url(../images/header-background1.jpg) no-repeat top center fixed;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   /* add parallax effect */
+   transform-style: preserve-3d;
+   transform: translate3d(0, -10, 0);
+   will-change: transform;
 }
 
 /* vertically center banner section */
