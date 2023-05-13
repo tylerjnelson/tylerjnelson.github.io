@@ -104,6 +104,11 @@ let resumeData = {
       category: "Guide: Season Tutorial",
       description: "Producer and Voiceover",
     },
+    {
+      url: "https://www.youtube.com/embed/79stGY2foDg",
+      category: "Guide: Jetina & PEN Gear",
+      description: "Producer and Voiceover",
+    },
   ],
 
   "webpages": [
