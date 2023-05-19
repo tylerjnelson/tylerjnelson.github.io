@@ -135,7 +135,6 @@ export default class Porfolio extends Component {
           )}      
 
 
-            
             <h2>{project.category}</h2>
             <p style={{ margin: "10px 0 0 0" }}>{project.description}</p>
           </div>
