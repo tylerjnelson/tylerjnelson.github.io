@@ -84,7 +84,7 @@ export default  class Resume extends Component {
           <div className="nine columns main-col">
 
           <h3>
-            <a href="resources/resume-tyler-nelson.pdf" target="_blank" rel="noreferrer">View my full resume here</a>
+            <a href="resources/tyler-nelson-resume.pdf" target="_blank" rel="noreferrer">View my full resume here</a>
           </h3>
 
           {/*
