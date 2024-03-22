@@ -53,9 +53,9 @@ let resumeData = {
 
   "videos": [
     {
-      url: "https://www.youtube.com/embed/maJKKSTarUU",
+      url: "https://www.youtube.com/embed/sVgMzZ4E8og",
       category: "In-Person Event: Adventurers' Oasis",
-      description: "Main MC and Console Team Coordinator",
+      description: "Host, MC, and Console Team Coordinator",
     },
     {
       url: "https://www.youtube.com/embed/s46WJw-Lhhk",
@@ -74,8 +74,13 @@ let resumeData = {
     },
 
     {
-      url: "https://www.youtube.com/embed/UIS3F2OmOJw",
-      category: "Livestream: Cross-Play 3rd Anniversary",
+      url: "https://www.youtube.com/embed/PG8GffA4E1c?start=263",
+      category: "Livestream: Calpheon Ball 2023",
+      description: "Console Host",
+    },
+    {
+      url: "https://www.youtube.com/embed/9GSOaNtXPXk?start=980",
+      category: "Livestream: Cross-Play 4th Anniversary",
       description: "Producer and Main Host",
     },
     {
@@ -88,19 +93,14 @@ let resumeData = {
       category: "Livestream: Arena of Arsha 2022",
       description: "Producer and Main Host",
     },
-    {
-      url: "https://www.youtube.com/embed/ugvmPgzZH_c?start=1236",
-      category: "Livestream: Inside the April Update",
-      description: "Producer and Main Host",
-    },
 
     {
-      url: "https://www.youtube.com/embed/GcDopHgVo7o",
+      url: "https://www.youtube.com/embed/qAfIdTOUIFQ",
       category: "Guide: Getting Started in Black Desert",
       description: "Producer and Voiceover",
     },
     {
-      url: "https://www.youtube.com/embed/M5ENz-J7fxs",
+      url: "https://www.youtube.com/embed/htjYbeKLoSs",
       category: "Guide: Season Tutorial",
       description: "Producer and Voiceover",
     },
@@ -113,15 +113,15 @@ let resumeData = {
 
   "webpages": [
     {
-      url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13298",
-      banner: "images/portfolio/website_banners/web-maegu.jpg",
-      category: "Maegu Screenshot Event",
+      url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=14533",
+      banner: "images/portfolio/website_banners/web-ambassador.jpg",
+      category: "Black Desert Ambassador Program",
       description: "Author",
     },
     {
-      url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=13503",
-      banner: "images/portfolio/website_banners/web-maegu.jpg",
-      category: "Maegu Screenshot Winners Announcement",
+      url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=15528",
+      banner: "images/portfolio/website_banners/web-holiday.jpg",
+      category: "Holiday Screenshot Contest",
       description: "Author",
     },
     {
