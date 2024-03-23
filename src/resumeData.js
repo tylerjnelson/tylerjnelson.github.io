@@ -115,7 +115,7 @@ let resumeData = {
     {
       url: "https://www.console.playblackdesert.com/News/Notice/Detail?boardNo=14533",
       banner: "images/portfolio/website_banners/web-ambassador.jpg",
-      category: "Black Desert Ambassador Program",
+      category: "Black Desert Ambassador Recruitment",
       description: "Author",
     },
     {
