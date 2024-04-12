@@ -14,10 +14,10 @@ let resumeData = {
   "education":[
     {
       "UniversityName":"Purdue University",
-      "specialization":"Computer Science: AI & Machine Learning Focus",
+      "specialization":"Bachelors in Computer Science",
       "StartDate":"September 2016",
       "EndDate":"May 2020",
-      "Achievements":"Honored as Outstanding Freshman in CS. Studied heuristic search, knowledge reasoning, data mining, databases, query languages, exploratory data analysis, predictive modeling, and more."
+      "Achievements":"AI & Machine Learning Focus. Honored as Outstanding Freshman in CS. Studied heuristic search, knowledge reasoning, data mining, databases, query languages, exploratory data analysis, predictive modeling, and more."
     },
     {
       "UniversityName":"Waseda University",
@@ -40,7 +40,7 @@ let resumeData = {
       "specialization":"Global Community Management (Genshin Impact)",
       "StartDate":"April 2021",
       "EndDate":"December 2021",
-      "Achievements":"	Regularly compiled and reported on UI/gameplay suggestions from players to relevant teams. These reports helped to prioritize the development of quality-of-life functions and other content, increasing user satisfaction. Implemented a new feedback channel through Discord specifically targeted at core, long-term players and VIPs. Categorized player sentiment towards game topics based on metrics such as level, start date, and average daily playtime. Beta tested new builds of Genshin Impact on multiple platforms prior to release (PC, PlayStation, and Android) - ensured stability on different devices, reported on bugs/issues, created a knowledge base on new content for CS team. Managed structure of Discord server. Addressed questions/concerns through CS tickets."
+      "Achievements":"Regularly compiled and reported on UI/gameplay suggestions from players to relevant teams. These reports helped to prioritize the development of quality-of-life functions and other content, increasing user satisfaction. Implemented a new feedback channel through Discord specifically targeted at core, long-term players and VIPs. Categorized player sentiment towards game topics based on metrics such as level, start date, and average daily playtime. Beta tested new builds of Genshin Impact on multiple platforms prior to release (PC, PlayStation, and Android) - ensured stability on different devices, reported on bugs/issues, created a knowledge base on new content for CS team. Managed structure of Discord server. Addressed questions/concerns through CS tickets."
     },
     {
       "CompanyName":"Microsoft",
