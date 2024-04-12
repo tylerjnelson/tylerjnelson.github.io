@@ -105,8 +105,13 @@ let resumeData = {
       description: "Producer and Voiceover",
     },
     {
-      url: "https://www.youtube.com/embed/79stGY2foDg",
+      url: "https://www.youtube.com/embed/gEV4P0868CQ",
       category: "Guide: Jetina & PEN Gear",
+      description: "Producer and Voiceover",
+    },
+    {
+      url: "https://www.youtube.com/embed/TJXaOgkFbNU",
+      category: "Guide: Artifacts & Lightstones",
       description: "Producer and Voiceover",
     },
   ],
