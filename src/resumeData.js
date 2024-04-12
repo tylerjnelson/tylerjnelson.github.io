@@ -17,37 +17,37 @@ let resumeData = {
       "specialization":"Computer Science: AI & Machine Learning Focus",
       "StartDate":"September 2016",
       "EndDate":"May 2020",
-      "Achievements":"Honored as Outstanding Freshman in CS"
+      "Achievements":"Honored as Outstanding Freshman in CS. Studied heuristic search, knowledge reasoning, data mining, databases, query languages, exploratory data analysis, predictive modeling, and more."
     },
     {
       "UniversityName":"Waseda University",
-      "specialization":"Study Abroad: Japanese Language",
+      "specialization":"Study Abroad",
       "StartDate":"",
       "EndDate":"Spring 2019",
-      "Achievements":"3rd Year Immersion Japanese"
+      "Achievements":"3rd Year Immersion Japanese Language studies. Studied digital game history, theory, terminology, how the industry operates, how games have shaped culture, etc."
     }
   ],
   "work":[
     {
       "CompanyName":"Pearl Abyss America",
-      "specialization":"Community Manager",
+      "specialization":"Community Manager (Black Desert)",
       "StartDate":"December 2021",
       "EndDate":"Present",
-      "Achievements":"Outside of the portfolio work showcased above, responsibilities include (but not limited to): Managing 11 social media & blog platforms, publishing to PS News, Xbox Club & Xbox Events App, coordinating in-game & in-person events for Black Desert (as an IP), drafting official website notices, creating console UI/gameplay reports & submitting to relevant teams (QA, UI, Game Design, etc.), creating image & video assets, livestreaming"
+      "Achievements":"Main point of contact for players of Black Desert Console. Director & Main Host for all livestreams on Twitch & YouTube. Host & MC for in-person events promoting Black Desert across all platforms. In addition to the portfolio work showcased above, responsibilities include (but not limited to): Managing numerous social media & blog platforms ranging from Facebook & X (Twitter) to Xbox Wire & PlayStation News, managing the Console Content Creator and Ambassador Programs, drafting website notices, creating assets, in-game and IRL event ideation, gameplay reports to relevant teams (QA, Game Design, etc.)."
     },
     {
       "CompanyName":"MiHoYo (now HoYoverse)",
-      "specialization":"Global Community Management for Genshin Impact",
+      "specialization":"Global Community Management (Genshin Impact)",
       "StartDate":"April 2021",
       "EndDate":"December 2021",
-      "Achievements":"Produced reports on UI/gameplay suggestions, managed Discord, beta tested new builds of Genshin Impact, addressed players' questions/concerns through CS tickets."
+      "Achievements":"	Regularly compiled and reported on UI/gameplay suggestions from players to relevant teams. These reports helped to prioritize the development of quality-of-life functions and other content, increasing user satisfaction. Implemented a new feedback channel through Discord specifically targeted at core, long-term players and VIPs. Categorized player sentiment towards game topics based on metrics such as level, start date, and average daily playtime. Beta tested new builds of Genshin Impact on multiple platforms prior to release (PC, PlayStation, and Android) - ensured stability on different devices, reported on bugs/issues, created a knowledge base on new content for CS team. Managed structure of Discord server. Addressed questions/concerns through CS tickets."
     },
     {
       "CompanyName":"Microsoft",
-      "specialization":"Project / Research Intern",
+      "specialization":"Intern",
       "StartDate":"",
       "EndDate":"Summers 2016, 2017, 2018",
-      "Achievements":"Data scientist within the Business Applications Group. Helped to improve support chatbot experience for Microsoft & clients. Worked to port Microsoft Pix (AI camera application) to Universal Windows Platform (UWP). Created a prototype Google Chrome extension for Docs.com (Office file sharing and discovery. Succeeded by SlideShare). Participated in company hackathon."
+      "Achievements":"Research Intern focusing on data science within the Business Applications Group. Helped to improve support chatbot experience for Microsoft & clients. Worked to port Microsoft Pix (AI camera application) to Universal Windows Platform (UWP). Created a prototype Google Chrome extension for Docs.com (Office file sharing and discovery. Succeeded by SlideShare). Participated in company hackathon."
     }
   ],
 
