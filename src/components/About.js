@@ -22,7 +22,7 @@ export default class About extends Component {
                      <br></br> 
                      🕹️ Gamer
                      <br></br><br></br>
-                     Purdue University Computer Science graduate with over 3 years experience in the gaming industry. Substantial work with live service games like Genshin Impact and Black Desert. Mainly focusing on live operations, community management, and content creation.
+                     Product-minded professional and Purdue University Computer Science graduate with 5 years of experience in the gaming and tech industries. Substantial work with live service games like Genshin Impact and Black Desert. Mainly focusing on live service operations, project & community management, and content creation.
                   </span>
                }
                </p>

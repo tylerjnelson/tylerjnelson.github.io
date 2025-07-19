@@ -15,8 +15,8 @@ let resumeData = {
     {
       "UniversityName":"Purdue University",
       "specialization":"Bachelors in Computer Science",
-      "StartDate":"September 2016",
-      "EndDate":"May 2020",
+      "StartDate":"2016",
+      "EndDate":"2020",
       "Achievements":"Focus: Artificial Intelligence (AI) & Machine Learning (ML). Honored as Outstanding Freshman in Computer Science."
     },
     {
@@ -38,15 +38,15 @@ let resumeData = {
     {
       "CompanyName":"Pearl Abyss America",
       "specialization":"Community Manager (Black Desert)",
-      "StartDate":"December 2021",
-      "EndDate":"Present",
+      "StartDate":"2021",
+      "EndDate":"2024",
       "Achievements":"Main point of contact for players of Black Desert Console. Steered voice of brand across livestreams, in-person events, and social platforms. Led production of community-facing content including guides, marketing videos, and developer messaging. Built and managed creator and ambassador programs to foster an inclusive community and drive player engagement."
     },
     {
       "CompanyName":"MiHoYo (now HoYoverse)",
       "specialization":"Global Community Management (Genshin Impact)",
-      "StartDate":"April 2021",
-      "EndDate":"December 2021",
+      "StartDate":"2021",
+      "EndDate":"2021",
       "Achievements":"Key liaison between Genshin Impact players and development team, supporting global PC, console, and mobile communities. Managed Discord structure and moderation while addressing sentiment via support tickets and outreach. Delivered strategic feedback pipelines to guide product development."
     },
     {
@@ -168,25 +168,25 @@ let resumeData = {
       url: "images/portfolio/projects/dadportrait.png",
       banner: "images/portfolio/projects/stable.png",
       category: "Tech Trends",
-      description: "The jury is still out on whether the pop culture AI revolution is positive overall. One thing is for certain: it is transforming our lives. I try to stay up to date on emerging technology. This picture is 100% generated from text only. I trained an existing diffusion model to recognize my own likeness and reproduce it. I also made one of my dad (with his permission of course). You can click on my face to view it.",
+      description: "Technology constantly transforms our lives. I try to stay up to date on emerging technology, including AI. This picture is 100% generated from text only by training an existing diffusion model to recognize my own likeness and reproduce it. I've also made one of my father (with his permission of course). Click the photo above to view it.",
     },
     {
       url: "https://www.flickr.com/photos/198274664@N02/albums",
       banner: "images/portfolio/projects/photography.png",
       category: "Photography",
-      description: "I don't really have a specialization, but I tend to go after portraits, nature photography, and street photography. I chronicle a lot of my travel through photos, as it helps me remember where I went and what I did. I shoot on a mix of DSLRs and mirrorless cameras. Portrait work was done for a friend over several years. Click the photo above for some examples of my work.",
+      description: "I'm drawn to many different styles of photography: portraits, nature photography, and street photography. I chronicle a lot of my travel through this hobby. Portrait work was done for a friend over several years. Click the photo above for some examples of my work.",
     },
     {
       url: "",
       banner: "images/portfolio/projects/gunpla.jpg",
       category: "Model Building",
-      description: "I am by no means the most talented builder, but I do enjoy model building - especially Gunpla. Slowly breaking into more custom expression through panel lining. Currently working on HG 1/144 RX-78-02 Gundam the Origin Version. HG 1/144 Gundam Aerial is up next :)",
+      description: "I am by no means the most talented builder, but I do enjoy model building - especially Gunpla. The shelf is always in need of more Zakus. Currently putting together a 1/48 mega size Zaku II with a MG RGM96X Jesta Cannon up next.",
     },
     {
       url: "",
       banner: "images/portfolio/projects/discord2.png",
       category: "Community",
-      description: "Alongside rebuilding and managing the Black Desert Console Discord, I've built and maintained servers for medium-sized content creators and small communities. I also developed node.js-based bots during Microsoft hackathons and in personal time. These bots ranged from simple addons to moderation tools.",
+      description: "Alongside rebuilding and managing Pearl Abyss's Black Desert Console Discord, I've built and maintained servers for medium-sized content creators and small communities. I also developed node.js-based bots during Microsoft hackathons and in personal time. These bots ranged from simple addons to moderation tools.",
     },
   ],
 }

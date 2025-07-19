@@ -43,7 +43,7 @@ export default class Porfolio extends Component {
 
       <h4>Portfolio</h4>
         
-      <h1>Some Work I've Done</h1>
+      <h1>In-Person Events & Video Content</h1>
       
       <div
         style={{
@@ -106,7 +106,7 @@ export default class Porfolio extends Component {
       </div>
       
       <h1> </h1>
-      <h1>Some things I do in my free time</h1>
+      <h1>More About Me</h1>
 
       <div
         style={{
