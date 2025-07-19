@@ -1,6 +1,6 @@
 {
   "name": "tylerjnelson.github.io",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "homepage": "https://tylerjnelson.github.io/",
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "dotenv -- gh-pages -d build -r https://$GITHUB_TOKEN@github.com/tylerjnelson/tylerjnelson.github.io.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

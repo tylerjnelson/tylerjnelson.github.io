@@ -17,30 +17,37 @@ let resumeData = {
       "specialization":"Bachelors in Computer Science",
       "StartDate":"September 2016",
       "EndDate":"May 2020",
-      "Achievements":"AI & Machine Learning Focus. Honored as Outstanding Freshman in CS. Studied heuristic search, knowledge reasoning, data mining, databases, query languages, exploratory data analysis, predictive modeling, and more."
+      "Achievements":"Focus: Artificial Intelligence (AI) & Machine Learning (ML). Honored as Outstanding Freshman in Computer Science."
     },
     {
       "UniversityName":"Waseda University",
       "specialization":"Study Abroad",
       "StartDate":"",
       "EndDate":"Spring 2019",
-      "Achievements":"3rd Year Immersion Japanese Language studies. Studied digital game history, theory, terminology, how the industry operates, how games have shaped culture, etc."
+      "Achievements":"Comprehensive Japanese Immersion program and Video Game Studies."
     }
   ],
   "work":[
+    {
+      "CompanyName":"Twilio",
+      "specialization":"Community Manager (Segment)",
+      "StartDate":"2024",
+      "EndDate":"2025",
+      "Achievements":"Owned developer engagement platform and community-driven learning initiatives. Led roadmap and launch of platform expansion, partnering cross-functionally to drive 100% user growth in nine months through Segment-powered GTM campaigns. Designed spec and built new gamification systems (points & badges) that increased platform engagement and improved retention KPIs across key developer segments.Wrote product specs and aligned stakeholders for education tool integrations (Segment University), improving onboarding flows and reducing support volume."
+    },
     {
       "CompanyName":"Pearl Abyss America",
       "specialization":"Community Manager (Black Desert)",
       "StartDate":"December 2021",
       "EndDate":"Present",
-      "Achievements":"Main point of contact for players of Black Desert Console. Director & Main Host for all livestreams on Twitch & YouTube. Host & MC for in-person events promoting Black Desert across all platforms. In addition to the portfolio work showcased above, responsibilities include (but not limited to): Managing numerous social media & blog platforms ranging from Facebook & X (Twitter) to Xbox Wire & PlayStation News, managing the Console Content Creator and Ambassador Programs, drafting website notices, creating assets, in-game and IRL event ideation, gameplay reports to relevant teams (QA, Game Design, etc.)."
+      "Achievements":"Main point of contact for players of Black Desert Console. Steered voice of brand across livestreams, in-person events, and social platforms. Led production of community-facing content including guides, marketing videos, and developer messaging. Built and managed creator and ambassador programs to foster an inclusive community and drive player engagement."
     },
     {
       "CompanyName":"MiHoYo (now HoYoverse)",
       "specialization":"Global Community Management (Genshin Impact)",
       "StartDate":"April 2021",
       "EndDate":"December 2021",
-      "Achievements":"Regularly compiled and reported on UI/gameplay suggestions from players to relevant teams. These reports helped to prioritize the development of quality-of-life functions and other content, increasing user satisfaction. Implemented a new feedback channel through Discord specifically targeted at core, long-term players and VIPs. Categorized player sentiment towards game topics based on metrics such as level, start date, and average daily playtime. Beta tested new builds of Genshin Impact on multiple platforms prior to release (PC, PlayStation, and Android) - ensured stability on different devices, reported on bugs/issues, created a knowledge base on new content for CS team. Managed structure of Discord server. Addressed questions/concerns through CS tickets."
+      "Achievements":"Key liaison between Genshin Impact players and development team, supporting global PC, console, and mobile communities. Managed Discord structure and moderation while addressing sentiment via support tickets and outreach. Delivered strategic feedback pipelines to guide product development."
     },
     {
       "CompanyName":"Microsoft",
