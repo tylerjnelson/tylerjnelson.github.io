@@ -1,60 +1,71 @@
 let resumeData = {
-  "socialLinks":[
+  "socialLinks": [
     {
-      "name":"linkedin",
-      "url":"https://www.linkedin.com/in/tylernel/",
-      "className":"fa fa-linkedin"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tylernel/",
+      "className": "fa fa-linkedin"
     },
     {
-      "name":"github",
-      "url":"https://github.com/tylerjnelson",
-      "className":"fa fa-github"
+      "name": "GitHub",
+      "url": "https://github.com/tylerjnelson",
+      "className": "fa fa-github"
     },
   ],
-  "education":[
+
+  "education": [
     {
-      "UniversityName":"Purdue University",
-      "specialization":"Bachelors in Computer Science",
-      "StartDate":"2016",
-      "EndDate":"2020",
-      "Achievements":"Focus: Artificial Intelligence (AI) & Machine Learning (ML). Honored as Outstanding Freshman in Computer Science."
+      "UniversityName": "Purdue University",
+      "specialization": "Bachelors in Computer Science",
+      "StartDate": "2016",
+      "EndDate": "2020",
+      "Achievements": "Focus: Artificial Intelligence (AI) & Machine Learning (ML). Honored as Outstanding Freshman in Computer Science."
     },
     {
-      "UniversityName":"Waseda University",
-      "specialization":"Study Abroad",
-      "StartDate":"",
-      "EndDate":"Spring 2019",
-      "Achievements":"Comprehensive Japanese Immersion program and Video Game Studies."
+      "UniversityName": "Waseda University",
+      "specialization": "Study Abroad",
+      "StartDate": "",
+      "EndDate": "Spring 2019",
+      "Achievements": "Comprehensive Japanese Immersion program and Video Game Studies."
     }
   ],
-  "work":[
+
+  "work": [
     {
-      "CompanyName":"Twilio",
-      "specialization":"Community Manager (Segment)",
-      "StartDate":"2024",
-      "EndDate":"2025",
-      "Achievements":"Owned developer engagement platform and community-driven learning initiatives. Led roadmap and launch of platform expansion, partnering cross-functionally to drive 100% user growth in nine months through Segment-powered GTM campaigns. Designed spec and built new gamification systems (points & badges) that increased platform engagement and improved retention KPIs across key developer segments.Wrote product specs and aligned stakeholders for education tool integrations (Segment University), improving onboarding flows and reducing support volume."
+      "CompanyName": "Twilio",
+      "specialization": "Community Manager",
+      "project": "Segment",
+      "StartDate": "2024",
+      "EndDate": "2025",
+      "Achievements": [
+        "Owned developer engagement platform and community-driven learning initiatives.",
+        "Led roadmap and launch of platform expansion, partnering cross-functionally to drive 100% user growth in nine months through Segment-powered GTM campaigns.",
+        "Designed spec and built new gamification systems (points & badges) that increased platform engagement and improved retention KPIs across key developer segments.",
+        "Wrote product specs and aligned stakeholders for education tool integrations (Segment University), improving onboarding flows and reducing support volume."
+      ]
     },
     {
-      "CompanyName":"Pearl Abyss America",
-      "specialization":"Community Manager (Black Desert)",
-      "StartDate":"2021",
-      "EndDate":"2024",
-      "Achievements":"Main point of contact for players of Black Desert Console. Steered voice of brand across livestreams, in-person events, and social platforms. Led production of community-facing content including guides, marketing videos, and developer messaging. Built and managed creator and ambassador programs to foster an inclusive community and drive player engagement."
+      "CompanyName": "Pearl Abyss America",
+      "specialization": "Community Manager",
+      "project": "Black Desert",
+      "StartDate": "2021",
+      "EndDate": "2024",
+      "Achievements": "Main point of contact for players of Black Desert Console. Steered voice of brand across livestreams, in-person events, and social platforms. Led production of community-facing content including guides, marketing videos, and developer messaging. Built and managed creator and ambassador programs to foster an inclusive community and drive player engagement."
     },
     {
-      "CompanyName":"MiHoYo (now HoYoverse)",
-      "specialization":"Global Community Management (Genshin Impact)",
-      "StartDate":"2021",
-      "EndDate":"2021",
-      "Achievements":"Key liaison between Genshin Impact players and development team, supporting global PC, console, and mobile communities. Managed Discord structure and moderation while addressing sentiment via support tickets and outreach. Delivered strategic feedback pipelines to guide product development."
+      "CompanyName": "MiHoYo (now HoYoverse)",
+      "specialization": "Global Community Manager",
+      "project": "Genshin Impact",
+      "StartDate": "2021",
+      "EndDate": "2021",
+      "Achievements": "Key liaison between Genshin Impact players and development team, supporting global PC, console, and mobile communities. Managed Discord structure and moderation while addressing sentiment via support tickets and outreach. Delivered strategic feedback pipelines to guide product development."
     },
     {
-      "CompanyName":"Microsoft",
-      "specialization":"Intern",
-      "StartDate":"",
-      "EndDate":"Summers 2016, 2017, 2018",
-      "Achievements":"Research Intern focusing on data science within the Business Applications Group. Helped to improve support chatbot experience for Microsoft & clients. Worked to port Microsoft Pix (AI camera application) to Universal Windows Platform (UWP). Created a prototype Google Chrome extension for Docs.com (Office file sharing and discovery. Succeeded by SlideShare). Participated in company hackathon."
+      "CompanyName": "Microsoft",
+      "specialization": "Research Intern",
+      "project": "Business Applications Group",
+      "StartDate": "",
+      "EndDate": "Summers 2016, 2017, 2018",
+      "Achievements": "Research Intern focusing on data science within the Business Applications Group. Helped to improve support chatbot experience for Microsoft & clients. Worked to port Microsoft Pix (AI camera application) to Universal Windows Platform (UWP). Created a prototype Google Chrome extension for Docs.com (Office file sharing and discovery. Succeeded by SlideShare). Participated in company hackathon."
     }
   ],
 
@@ -79,7 +90,6 @@ let resumeData = {
       category: "In-Person Event: Anime Expo",
       description: "Main Black Desert Representative",
     },
-
     {
       url: "https://www.youtube.com/embed/PG8GffA4E1c?start=263",
       category: "Livestream: Calpheon Ball 2023",
@@ -100,7 +110,6 @@ let resumeData = {
       category: "Livestream: Arena of Arsha 2022",
       description: "Producer and Main Host",
     },
-
     {
       url: "https://www.youtube.com/embed/qAfIdTOUIFQ",
       category: "Guide: Getting Started in Black Desert",
@@ -148,7 +157,6 @@ let resumeData = {
       category: "Adventurers' Oasis Recap",
       description: "Editor",
     },
-
     {
       url: "https://news.xbox.com/en-us/2022/04/07/explore-black-deserts-new-region-of-odyllita-today/",
       banner: "images/portfolio/website_banners/xwire-odyllita.jpg",
@@ -162,33 +170,6 @@ let resumeData = {
       description: "Editor",
     },
   ],
-
-  "projects": [
-    {
-      url: "images/portfolio/projects/dadportrait.png",
-      banner: "images/portfolio/projects/stable.png",
-      category: "Tech Trends",
-      description: "Technology constantly transforms our lives. I try to stay up to date on emerging technology, including AI. This picture is 100% generated from text only by training an existing diffusion model to recognize my own likeness and reproduce it. I've also made one of my father (with his permission of course). Click the photo above to view it.",
-    },
-    {
-      url: "https://www.flickr.com/photos/198274664@N02/albums",
-      banner: "images/portfolio/projects/photography.png",
-      category: "Photography",
-      description: "I'm drawn to many different styles of photography: portraits, nature photography, and street photography. I chronicle a lot of my travel through this hobby. Portrait work was done for a friend over several years. Click the photo above for some examples of my work.",
-    },
-    {
-      url: "",
-      banner: "images/portfolio/projects/gunpla.jpg",
-      category: "Model Building",
-      description: "I am by no means the most talented builder, but I do enjoy model building - especially Gunpla. The shelf is always in need of more Zakus. Currently putting together a 1/48 mega size Zaku II with a MG RGM96X Jesta Cannon up next.",
-    },
-    {
-      url: "",
-      banner: "images/portfolio/projects/discord2.png",
-      category: "Community",
-      description: "Alongside rebuilding and managing Pearl Abyss's Black Desert Console Discord, I've built and maintained servers for medium-sized content creators and small communities. I also developed node.js-based bots during Microsoft hackathons and in personal time. These bots ranged from simple addons to moderation tools.",
-    },
-  ],
 }
 
-export default resumeData
+export default resumeData;
