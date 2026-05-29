@@ -1,4 +1,4 @@
 # Portfolio Website
-A little site I built in react.js
+Portfolio website originally built in React. Later rebuilt in Vite + React. 
 
-I have another github account with work from high school and university. Those repos unfortunately need to stay private as course material is still relevant to current students.
+https://tylerjnelson.github.io
